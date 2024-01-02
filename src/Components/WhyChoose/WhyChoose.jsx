@@ -2,20 +2,20 @@ import React from 'react'
 
 const WhyChoose = () => {
   return (
-    <section>
-        
-      <div className="flex justify-center items-center m-10 w-[95%] flex-col max-sm: m-5">
+    <section className="flex justify-center items-center mx-10 w-[95%] flex-col max-lg:mx-7 max-md:mx-5 max-sm:mx-5">
+
+
       <div className="flex justify-center items-center flex-col">
-      <div className="text-orange-600  text-2xl font-bold uppercase  mt-5 max-md:mt-10">
-        WHY?
+        <div className="text-orange-600  text-2xl font-bold uppercase  mt-5 max-md:mt-10">
+          WHY?
+        </div>
+        <div className="text-black text-4xl font-bold uppercase  max-md:max-w-full max-md:text-4xl">
+          WHY CHOOSE Dev kirpa
+        </div>
       </div>
-      <div className="text-black text-8xl font-bold uppercase  max-md:max-w-full max-md:text-4xl">
-        WHY CHOOSE Dev kirpa
-      </div>
-      </div>
-      <div className="flex justify-center items-center w-[100%] mt-10 p-5 max-md:max-w-full max-md:mt-10">
+      <div className="flex justify-center items-center w-[100%] mt-10 p-5 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex w-[100%] justify-center gap-10 items-center max-md:w-full max-md:ml-0 max-sm:flex-col">
+          <div className="flex w-[100%] justify-center gap-10 items-center max-lg:flex-wrap max-md:w-full max-md:flex-col  max-sm:flex-col">
             <div className="flex justify-center items-center flex-col max-md:mt-10">
               <img
                 loading="lazy"
@@ -67,7 +67,7 @@ const WhyChoose = () => {
 
         </div>
       </div>
-      </div>
+
     </section>
   )
 }
